@@ -15,6 +15,8 @@ const loadMoreBtn = document.querySelector('.load-more');
 form.addEventListener('submit', onSearch);
 loadMoreBtn.addEventListener('click', onLoadMore);
 
+loadMoreBtn.style.display = 'none';
+
 async function fetchImages(query, page) {
   const params = {
     key: API_KEY,
