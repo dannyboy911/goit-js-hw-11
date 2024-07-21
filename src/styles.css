@@ -11,8 +11,9 @@ body {
   left: 0;
   width: 100%;
   height: auto;
-  position: sticky;
+  /* position: sticky; */
   display: grid;
+  overflow-x: hidden;
 }
 
 .search-form {
