@@ -12,6 +12,7 @@ body {
   width: 100%;
   height: auto;
   position: sticky;
+  display: grid;
 }
 
 .search-form {
@@ -50,18 +51,24 @@ body {
   width: calc(25% - 10px);
   box-sizing: border-box;
   background-color: bisque;
+  transition: transform 0.3s ease;
 }
 
 .photo-card img {
   width: 100%;
   height: auto;
+  transition: filter 0.3s ease;
+}
+
+.photo-card img.greyscale {
+  filter: grayscale(100%);
 }
 
 .info {
   margin-bottom: 10px;
   display: flex;
-  justify-content: space-around;
-  font-size: 10;
+  justify-content: space-between;
+  font-size: 12px;
 }
 
 .load-more {

@@ -52,6 +52,7 @@ function renderImages(images) {
      lightbox.refresh();
    }
 
+   
    function clearGallery() {
      gallery.innerHTML = '';
    }
@@ -97,5 +98,9 @@ function renderImages(images) {
      }
    }
 
-   const lightbox = new SimpleLightbox('.gallery a');
+const lightbox = new SimpleLightbox('.gallery a');
+   
+
+
+
 
